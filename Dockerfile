@@ -14,5 +14,6 @@ RUN npm install grunt-contrib-connect grunt-contrib-watch
 RUN npm install grunt-contrib-jshint grunt-contrib-uglify
 RUN npm install grunt-jsdoc-plugin grunt-jsdoc
 
-RUN grunt --config Gruntfile.js --force
+#TODO install NPM dependencies
+#RUN grunt --config Gruntfile.js --force
 
